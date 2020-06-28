@@ -2,100 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="166ba904-ae21-4d0b-abd3-512b02efaae6" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/H5小demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/01_class.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/01_canvas基本用法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/02_绘制矩形.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/03_beginPath.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/04_矩形.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/05_基本模版.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/07_高宽问题.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/08_绘制路径.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/09_moveTo&amp;lineTo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/10_line.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/11_save&amp;restore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/12_圆.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/13_圆弧.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/14_二次贝塞尔.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/15_三次贝塞尔.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/15_使用图片.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/16_使用背景.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/17_线性渐变.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/18_径向渐变.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/19_绘制文本.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/20_textBaseline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/21_measureText.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/22_文本垂直居中.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/23_像素操作.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/24_像素操作.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/25_单像素操作.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/26_others.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas变换/01_canvas变换.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas变换/02_canvas变换（rotate）.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas变换/03_canvas变换（scale）.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas合成/01_全局透明度.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas合成/02_合成.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/01_签名.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/02_变换实例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/03_时钟.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/04_飞鸟.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/05_马赛克.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/06_刮刮卡.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/img/a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/img/b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/img/q_r1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/img/q_r2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/img/q_r3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/img/q_r4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/img/q_r5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/img/q_r6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/img/q_r7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/img/q_r8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/images/chrome-big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/images/chrome-logo-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/images/chrome-logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/images/firefox-big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/images/firefox-logo-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/images/firefox-logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/images/ie-big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/images/ie-logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/images/opera-big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/images/opera-logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/images/safari-big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/images/safari-logo-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/h5小功能/images/safari-logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/01_初次邂逅.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/02_attribute.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/03_property.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/04_相关函数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/05_load函数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/06_音阶导航.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/07_拖拽.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/08_全局捕获.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/09_磁性吸附.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/10_碰撞检测.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/11_拖拽封装.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/js/tuozhuai.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/resource/audio/OUTPUT.aac" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/resource/audio/OUTPUT.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/resource/audio/OUTPUT.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/resource/audio/test.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/resource/img/xfz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/resource/video/OUTPUT.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/resource/video/OUTPUT.ogv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/resource/video/OUTPUT.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/resource/video/test.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/视频播放器/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/视频播放器/css/index.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/视频播放器/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/视频播放器/css/reset.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/视频播放器/img/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/视频播放器/js/drag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/音视频/视频播放器/视频播放器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -124,12 +31,23 @@
           <entry key="HTML" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="6" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf />
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -156,6 +74,16 @@
             <path>
               <item name="H5小demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="H5小demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="H5小demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="H5小demo" type="462c0819:PsiDirectoryNode" />
+              <item name="h5小功能" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="H5小demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="H5小demo" type="462c0819:PsiDirectoryNode" />
+              <item name="音视频" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -197,12 +125,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593313113556</updated>
-      <workItem from="1593313123291" duration="2520000" />
+      <workItem from="1593313123291" duration="3140000" />
     </task>
+    <task id="LOCAL-00001" summary="这是一个案例">
+      <created>1593318080292</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593318080292</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2520000" />
+    <option name="totallyTimeSpent" value="3140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -231,6 +167,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="这是一个案例" />
+    <option name="LAST_COMMIT_MESSAGE" value="这是一个案例" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/h5小功能/canvas/canvas变换/01_canvas变换.html">
