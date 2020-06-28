@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			html,body {
+				overflow: hidden;
+				height: 100%;
+			}
+			
+			body {
+				background: palegreen;
+			}
+			
+			#test {
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				margin: auto;
+				/*background: gold;*/
+			}
+		</style>
+	</head>
+
+	<body>
+		<canvas id="test" ></canvas>
+		<script type="text/javascript">
+			window.onload = function() {
+				//拿到画布
+				var oc = document.querySelector('#test');
+				if(oc.getContext){
+				var ctx = oc.getContext('2d');
+				
+				var img = new Image();
+				img.src ="../../images/chrome-logo-small.jpg";
+				img.onload =function(){
+					oc.width = img.width*2;
+					oc.height = img.height;
+					draw();
+				}
+				
+				function draw(){
+					ctx.drawImage(img,0,0);
+					
+					
+					var oldimgdata = ctx.getImageData(0,0,img.width,img.height);
+					var newimgdata = ctx.createImageData(img.width,img.height);
+					
+					//马赛克
+					/*
+					 1、选取一个马赛克矩形
+					 2、从马赛克矩形中随机抽出一个像素点的信息rgba
+					 3、将整个马赛克矩形像素点信息统一调成随机生成的那个
+					 * */
+					var size = 5;
+					for(var i=0;i < oldimgdata.width/size;i++){
+						for(var j =0;j < oldimgdata.height/size;j++){
+							//(i,j)每一个马赛克矩形的坐标
+							//Math.random() 拿到的是[0,1)
+							var color = getPxInfo(oldimgdata,i*size+Math.floor(Math.random()*size),j*size+Math.floor(Math.random()*size));
+						   //将整个马赛克矩形像素点信息统一调成随机生成的那个
+						   for(var a=0;a<size;a++){
+						    	for(var b=0;b<size;b++){
+						    		setPxInfo(newimgdata,a+i*size,b+j*size,color);
+						    	}
+						    }
+						
+						}
+					}
+					
+					ctx.clearRect(0,0,oc.width,oc.height);
+					ctx.putImageData(newimgdata,img.width,0);
+				}
+				
+				function getPxInfo(imgdata,x,y){
+					var color =[];
+					var data = imgdata.data;
+					var w = imgdata.width;
+					var h = imgdata.height;
+					color[0]=data[4*(y*w+x)];
+					color[1]=data[4*(y*w+x)+1];
+					color[2]=data[4*(y*w+x)+2];
+					color[3]=data[4*(y*w+x)+3];
+					return color;
+				}
+				function setPxInfo(imgdata,x,y,color){
+					var data = imgdata.data;
+					var w = imgdata.width;
+					var h = imgdata.height;
+					data[4*(y*w+x)]=color[0];
+					data[4*(y*w+x)+1]=color[1];
+					data[4*(y*w+x)+2]=color[2];
+					data[4*(y*w+x)+3]=color[3];
+					
+				}
+			
+		
+				
+				}
+				
+			    
+			
+			}
+		</script>
+	</body>
+
+</html>

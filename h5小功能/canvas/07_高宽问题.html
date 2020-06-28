@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			html,body{
+				overflow: hidden;
+				height: 100%;
+			}
+			#test{
+				position: absolute;
+				left: 0;
+				top: 0;
+				bottom: 0;
+				right: 0;
+				margin: auto;
+				background: pink;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="test">
+			<span>你的浏览器不支持</span>
+		</canvas>
+	</body>
+	<script type="text/javascript">
+		window.onload = function(){
+			var canvas = document.querySelector('#test');
+			if(canvas.getContext){
+				var ctx = canvas.getContext('2d');
+				ctx.fillStyle='pink';
+				ctx.fillRect(0,0,100,100)
+			}
+		}
+	</script>
+</html>

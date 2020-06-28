@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			html,body{
+				overflow: hidden;
+				height: 100%;
+			}
+			#wrap,ul,ul>li{
+				height: 100%;
+			}
+			ul>li{
+				background: url("img/b.png");
+				background-size: 100% 100%;
+			}
+			canvas{
+				position: absolute;
+				left: 0;
+				top: 0;
+				transition: 1s;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrap">
+			<canvas></canvas>
+			<ul>
+				<li></li>
+			</ul>
+		</div>
+		
+		<script type="text/javascript">
+			window.onload= function(){
+				//拿到画布
+				var canvas = document.querySelector('canvas');
+				canvas.width = document.documentElement.clientWidth;
+				canvas.height = document.documentElement.clientHeight;
+				//拿画笔
+				if(canvas.getContext){
+					var ctx = canvas.getContext("2d");//2d画笔，3d画笔不是这里的
+				    var img = new Image();
+				    img.src = "img/a.png";
+				    img.onload=function(){
+				    	draw();
+				    }
+				    
+				    function draw(){
+				    	var flag = 0;
+				    	ctx.drawImage(img,0,0,canvas.width,canvas.height);
+				    	
+				    	canvas.addEventListener("touchstart",function(ev){
+				    		ev = ev || event;
+				    		
+				    		var touchC = ev.changedTouches[0];
+				    		var x = touchC.clientX - canvas.offsetLeft;
+				    		var y = touchC.clientY - canvas.offsetTop;
+				    		ctx.globalCompositeOperation="destination-out";
+				    		ctx.lineWidth =40;
+				    		ctx.lineCap ="round";
+				    		ctx.lineJoin ="round";
+				    		ctx.save();
+				    		ctx.beginPath();
+				    		ctx.moveTo(x,y);
+				    		ctx.lineTo(x+1,y+1);
+				    		ctx.stroke();
+				    		ctx.restore();
+				    		
+				    		
+				    	})
+				   
+				        canvas.addEventListener("touchmove",function(ev){
+				        	ev = ev || event;
+				        	var touchC = ev.changedTouches[0];
+				    		var x = touchC.clientX - canvas.offsetLeft;
+				    		var y = touchC.clientY - canvas.offsetTop;
+				    		ctx.save();
+				    		ctx.lineTo(x,y);
+				    		ctx.stroke();
+				    		ctx.restore();
+				        })
+				    
+				        canvas.addEventListener("touchend",function(){
+				        	var imageData = ctx.getImageData(0,0,canvas.width,canvas.height);
+				        	var allPX = imageData.width*imageData.height;
+				        	
+				        	for(var i =0;i<allPX;i++){
+				        		if(imageData.data[4*i+3]===0){
+				        			flag++;
+				        		}
+				        	}
+				        	if(flag >allPX/2){
+				        		canvas.style.opacity = 0;
+				        	}
+				        	
+				        })
+				        canvas.addEventListener("transitionend",function(){
+				        	this.remove();
+				        })
+				    
+				    }
+				
+				
+				}
+			}
+		</script>
+	</body>
+</html>

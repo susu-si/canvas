@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	 <style type="text/css">
+	 	*{
+	 		margin: 0;
+	 		padding: 0;
+	 	}
+	 	#test{
+	 		width: 100px;
+	 		height: 100px;
+	 		position: absolute;
+	 		background: goldenrod;
+	 		left: 0;
+	 		top:0;
+	 	}
+	 	#zaw{
+	 		position: absolute;
+	 		width: 100px;
+	 		height: 100px;
+	 		left: 20px;
+	 		top: 200px;
+	 	}
+	 </style>
+	</head>
+	
+	
+	<body>
+		<img src="../h5小功能/canvas/canvas实例/img/b.png" id="test" />
+		<img src="../h5小功能/canvas/canvas实例/img/a.png" id="zaw"/>
+	</body>
+	<script src="js/tuozhuai.js"></script>
+	<script type="text/javascript">
+		window.onload=function(){
+			var textNode = document.querySelector("#test");
+			var imgNode = document.querySelector("#zaw");
+			//拿到鼠标点击元素时，元素一开始的位置
+			 susi.drag(textNode);
+
+           //node:拖拽元素
+           //node2：碰撞元素
+           //flag：是否限制范围
+           //value：吸附程度
+           
+      	}
+	</script>
+</html>

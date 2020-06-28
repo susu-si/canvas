@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="166ba904-ae21-4d0b-abd3-512b02efaae6" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/H5小demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/01_class.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/01_canvas基本用法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/02_绘制矩形.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/03_beginPath.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/04_矩形.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/05_基本模版.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/07_高宽问题.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/08_绘制路径.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/09_moveTo&amp;lineTo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/10_line.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/11_save&amp;restore.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/12_圆.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/13_圆弧.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/14_二次贝塞尔.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/15_三次贝塞尔.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/15_使用图片.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/16_使用背景.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/17_线性渐变.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/18_径向渐变.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/19_绘制文本.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/20_textBaseline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/21_measureText.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/22_文本垂直居中.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/23_像素操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/24_像素操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/25_单像素操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/26_others.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas变换/01_canvas变换.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas变换/02_canvas变换（rotate）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas变换/03_canvas变换（scale）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas合成/01_全局透明度.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas合成/02_合成.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/01_签名.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/02_变换实例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/03_时钟.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/04_飞鸟.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/05_马赛克.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/06_刮刮卡.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/img/a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/img/b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/img/q_r1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/img/q_r2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/img/q_r3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/img/q_r4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/img/q_r5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/img/q_r6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/img/q_r7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/canvas/canvas实例/img/q_r8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/images/chrome-big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/images/chrome-logo-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/images/chrome-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/images/firefox-big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/images/firefox-logo-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/images/firefox-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/images/ie-big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/images/ie-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/images/opera-big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/images/opera-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/images/safari-big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/images/safari-logo-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/h5小功能/images/safari-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/01_初次邂逅.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/02_attribute.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/03_property.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/04_相关函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/05_load函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/06_音阶导航.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/07_拖拽.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/08_全局捕获.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/09_磁性吸附.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/10_碰撞检测.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/11_拖拽封装.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/js/tuozhuai.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/resource/audio/OUTPUT.aac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/resource/audio/OUTPUT.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/resource/audio/OUTPUT.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/resource/audio/test.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/resource/img/xfz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/resource/video/OUTPUT.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/resource/video/OUTPUT.ogv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/resource/video/OUTPUT.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/resource/video/test.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/视频播放器/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/视频播放器/css/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/视频播放器/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/视频播放器/css/reset.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/视频播放器/img/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/视频播放器/js/drag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/音视频/视频播放器/视频播放器.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1616405346">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="888" />
+    <option name="width" value="480" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="H5小demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="H5小demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\susi\WebstormProjects\H5小demo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="166ba904-ae21-4d0b-abd3-512b02efaae6" name="默认更改列表" comment="" />
+      <created>1593313113556</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593313113556</updated>
+      <workItem from="1593313123291" duration="2520000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2520000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.33004925" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/h5小功能/canvas/canvas变换/01_canvas变换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
